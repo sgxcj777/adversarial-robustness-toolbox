@@ -1,22 +1,10 @@
 # Making use of Adverserial Robustness Toolbox (ART) from IBM
 
-Quote from ART Github Repo:
-Adversarial Robustness 360 Toolbox (ART) is a Python library supporting developers and researchers in defending Machine 
-Learning models (Deep Neural Networks, Gradient Boosted Decision Trees, Support Vector Machines, Random Forests, 
-Logistic Regression, Gaussian Processes, Decision Trees, Scikit-learn Pipelines, etc.) against adversarial threats and 
-helps making AI systems more secure and trustworthy. Machine Learning models are vulnerable to adversarial examples, 
-which are inputs (images, texts, tabular data, etc.) deliberately modified to produce a desired response by the Machine 
-Learning model. ART provides the tools to build and deploy defences and test them with adversarial attacks. 
+This is a library dedicated to adversarial machine learning. Its purpose is to allow rapid crafting and analysis of attacks and defense methods for machine learning models. The Adversarial Robustness Toolbox provides an implementation for many state-of-the-art methods for attacking and defending classifiers.
 
-Defending Machine Learning models involves certifying and verifying model robustness and model hardening with 
-approaches such as pre-processing inputs, augmenting training data with adversarial samples, and leveraging runtime 
-detection methods to flag any inputs that might have been modified by an adversary. The attacks implemented in ART 
-allow creating adversarial attacks against Machine Learning models which is required to test defenses with 
-state-of-the-art threat models.
+The library is still under development. Feedback, bug reports and extensions are highly appreciated. Get in touch with us on Slack (invite here)!
 
 Documentation of ART: https://adversarial-robustness-toolbox.readthedocs.io
-
-Get started with [examples](examples/README.md) and [tutorials](notebooks/README.md)
 
 The library is under continuous development. Feedback, bug reports and contributions are very welcome. 
 Get in touch with us on [Slack](https://ibm-art.slack.com) (invite [here](https://join.slack.com/t/ibm-art/shared_invite/enQtMzkyOTkyODE4NzM4LTA4NGQ1OTMxMzFmY2Q1MzE1NWI2MmEzN2FjNGNjOGVlODVkZDE0MjA1NTA4OGVkMjVkNmQ4MTY1NmMyOGM5YTg))!
