@@ -1,13 +1,6 @@
-# Adversarial Robustness 360 Toolbox (ART) v1.0
-<p align="center">
-  <img src="docs/images/art_logo.png?raw=true" width="200" title="ART logo">
-</p>
-<br />
+# Making use of Adverserial Robustness Toolbox (ART) from IBM
 
-[![Build Status](https://travis-ci.org/IBM/adversarial-robustness-toolbox.svg?branch=master)](https://travis-ci.org/IBM/adversarial-robustness-toolbox) [![Documentation Status](https://readthedocs.org/projects/adversarial-robustness-toolbox/badge/?version=latest)](http://adversarial-robustness-toolbox.readthedocs.io/en/latest/?badge=latest) [![GitHub version](https://badge.fury.io/gh/IBM%2Fadversarial-robustness-toolbox.svg)](https://badge.fury.io/gh/IBM%2Fadversarial-robustness-toolbox) [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/IBM/adversarial-robustness-toolbox.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/IBM/adversarial-robustness-toolbox/context:python) [![Total alerts](https://img.shields.io/lgtm/alerts/g/IBM/adversarial-robustness-toolbox.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/IBM/adversarial-robustness-toolbox/alerts/)
-
-[中文README请按此处](README-cn.md)
-
+Quote from ART Github Repo:
 Adversarial Robustness 360 Toolbox (ART) is a Python library supporting developers and researchers in defending Machine 
 Learning models (Deep Neural Networks, Gradient Boosted Decision Trees, Support Vector Machines, Random Forests, 
 Logistic Regression, Gaussian Processes, Decision Trees, Scikit-learn Pipelines, etc.) against adversarial threats and 
@@ -92,65 +85,6 @@ Get in touch with us on [Slack](https://ibm-art.slack.com) (invite [here](https:
 **Detectoion of poisoning attacks:**
 * Detector based on activations analysis ([Chen et al., 2018](https://arxiv.org/abs/1811.03728))
 
-## Setup
-
-### Installation with `pip`
-
-The toolbox is designed and tested to run with Python 3. 
-ART can be installed from the PyPi repository using `pip`:
-
-```bash
-pip install adversarial-robustness-toolbox
-```
-
-### Manual installation
-
-The most recent version of ART can be downloaded or cloned from this repository:
-
-```bash
-git clone https://github.com/IBM/adversarial-robustness-toolbox
-```
-
-Install ART with the following command from the project folder `art`:
-```bash
-pip install .
-```
-
-ART provides unit tests that can be run with the following command:
-
-```bash
-bash run_tests.sh
-```
-
-## Get Started with ART
-
-Examples of using ART can be found in `examples` and [examples/README.md](examples/README.md) provides an overview and 
-additional information. It contains a minimal example for each machine learning framework. All examples can be run with
-the following command:
-```bash
-python examples/<example_name>.py
-```
-
-More detailed examples and tutorials are located in `notebooks` and [notebooks/README.md](notebooks/README.md) provides 
-and overview and more information. 
-
-### Contributing
-
-Adding new features, improving documentation, fixing bugs, or writing tutorials are all examples of helpful 
-contributions. Furthermore, if you are publishing a new attack or defense, we strongly encourage you to add it to the 
-Adversarial Robustness 360 Toolbox so that others may evaluate it fairly in their own work.
-
-Bug fixes can be initiated through GitHub pull requests. When making code contributions to the Adversarial Robustness 
-360 Toolbox, we ask that you follow the `PEP 8` coding standard and that you provide unit tests for the new features.
-
-This project uses [DCO](https://developercertificate.org/). Be sure to sign off your commits using the `-s` flag or 
-adding `Signed-off-By: Name<Email>` in the commit message.
-
-#### Example
-
-```bash
-git commit -s -m 'Add new feature'
-```
 
 ## Citing ART
 
