@@ -136,7 +136,11 @@ git commit -s -m 'Add new feature'
 
 ## Futher implementations of CLEVER metric (not from original repo)
 
-The file 
+The file `Examples with CLEVER` contains files with examples of models and implementations of CLEVER metric evaluation.
+
+Note that as CLEVER uses a "white-box" setting, the ball of radius of minimum perturbations R and norm of gradient X needs to be known and specified when using ART library for CLEVER. However, I have not figured out the derivation of these values. Hence, I will put a random number for these parameters.
+
+The examples will iterate through 10 batches of which each batch will sample 50 repetitions to estimate CLEVER. We will also use the first 10 test input to evaluate CLEVER score.
 
 ## Citing ART
 
